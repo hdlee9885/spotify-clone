@@ -1,0 +1,31 @@
+.sidebar {
+    /* border: 1px solid black; */
+    height: 100vh;
+    flex: 0.2;
+    background-color: #040404;
+    color: white;
+    height: 100vh;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    /* object-fit: contain; */
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+    /* width: 100px; */
+}
+
+.sidebar-title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.divider {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
