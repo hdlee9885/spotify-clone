@@ -58,10 +58,11 @@
     align-items: center;
     color: white;
     justify-content: space-between;
+    padding-right: 10px;
 }
 
 .footer-right * .MuiSlider-root {
-    color: green;
+    color: #1ed15e;
 }
 
 

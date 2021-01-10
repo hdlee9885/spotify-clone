@@ -12,7 +12,7 @@ function Body({ spotify }) {
 
     const playPlaylist = (id) => {
         spotify.play({
-            context_uri: `spotify:playlist:37i9dQZEVXcSaBc4guSZWX`
+            "context_uri": `spotify:playlist:37i9dQZEVXcSaBc4guSZWX`
         })
         .then((res) => {
             spotify.getMyCurrentPlayingTrack().then((song) => {
@@ -30,7 +30,7 @@ function Body({ spotify }) {
 
     const playSong = (id) => {
         spotify.play({
-            uris: [`spotify:track:${id}`],
+            "uris": [`spotify:track:${id}`],
         })
         .then((res) => {
             spotify.getMyCurrentPlayingTrack().then((song) => {
